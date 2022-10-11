@@ -6,7 +6,7 @@
 //
 //  
 
-source: objectiv is table('duckdb:data/objectiv.csv') {
+source: objectiv is table('duckdb:./data/objectiv.csv') {
   measure: event_count is count()
 
   query: by_user is {
