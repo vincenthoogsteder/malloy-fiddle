@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Objectiv demo",
+    "dataTables": ["objectiv.csv"],
+    "modelPath": "./objectiv.malloy",
+    "queryPath": "./objectiv-queries.malloy"
+  }
+]
